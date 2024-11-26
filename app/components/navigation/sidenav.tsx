@@ -8,10 +8,10 @@ export default function sidenav() {
     <>
       <aside className="absolute top-15 left-0 flex flex-col max-w-fit h-screen pl-12 select-none gap-1">
           <div
-            className="flex flex-row items-center cursor-pointer gap-2 w-full"
+            className="flex flex-row items-center cursor-pointer gap-2 w-full dark:text-primCol-100"
             onClick={() => setCollapsed(!collapsed)}
           >
-            <h2 className="font-parentFont text-lg">Getting Started</h2>
+            <h2 className="font-parentFont text-lg ">Getting Started</h2>
             <HeroIcons.ChevronDownIcon
               className={`size-4 ${!collapsed && "rotate-90"} duration-300`}
             />
