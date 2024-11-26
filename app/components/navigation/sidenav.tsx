@@ -17,11 +17,12 @@ export default function sidenav() {
             />
           </div>
           {!collapsed && (
-            <div className="relative flex flex-col w-full text-primCol-900">
-              <span className="cursor-pointer hover:bg-primCol-300 duration-300">
+            //TODO: Add HeroIcons to the left of each child element
+            <div className="relative flex flex-col w-full text-primCol-900 dark:text-primCol-100 text-lg gap-2">
+              <span className="cursor-pointer hover:bg-primCol-300/60 dark:hover:bg-primCol-800/20 px-2 duration-300 rounded-lg text-base">
                 Introduction
               </span>
-              <span>Settings</span>
+              <span className="cursor-pointer hover:bg-primCol-300/60 dark:hover:bg-primCol-800/20 px-2 duration-300 rounded-lg text-base">Settings</span>
             </div>
           )}
       </aside>

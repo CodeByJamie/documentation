@@ -5,7 +5,7 @@ export default function header() {
   const [darkMode, setDarkMode] = React.useState(false);
 
   return (
-    <div className="flex flex-row items-center justify-between border-b border-b-primCol-500 dark:border-b-primCol-800 p-2 px-12">
+    <div className="flex flex-row items-center justify-between border-b border-b-primCol-500 dark:border-b-primCol-800 border-opacity-50 dark:border-opacity-30 p-2 px-12">
       <span className="text-3xl font-headerFont font-bold text-primCol-900 dark:text-primCol-100">
         Cool Documentation
       </span>
