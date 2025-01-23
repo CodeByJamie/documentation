@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import SessionWrapper from "@/wrappers/authWrapper";
 
 export const metadata: Metadata = {
   title: "Documentation",
@@ -13,9 +14,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-        {children}
-      </body>
+      <SessionWrapper>
+        <body>
+          {children}
+        </body>
+      </SessionWrapper>
     </html>
   );
 }
