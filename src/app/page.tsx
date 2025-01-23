@@ -32,7 +32,7 @@ export default function rootPage() {
 								<Image src={'/Snowflake.png'} alt="snowflake" fill className="absolute" />
 							</div>
 							<div className="flex flex-col">
-								<span className="text-xl font-semibold"> Discord Support</span>
+								<span className="text-xl font-semibold">Discord Support</span>
 								<span className="max-w-lg">
 									Get support from our amazing team in our discord!
 								</span>
