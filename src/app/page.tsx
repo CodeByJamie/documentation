@@ -17,8 +17,8 @@ export default function rootPage() {
 							</div>
 						</div>
 
-						<div className="absolute right-0 top-0 h-[400px] w-[300px] z-50">
-							<Image src={"/profile.png"} alt="profile" fill className="absolute" />
+						<div className="absolute right-0 -bottom-11 h-[350px] w-[250px] z-50">
+							<Image src={"/customisation.png"} alt="profile" fill className="absolute" />
 						</div>
 						<div className="absolute bottom-0 left-0 size-60 bg-white rounded-tr-full bg-opacity-15" />
 						<div className="absolute top-10 -right-28 size-72 bg-white rounded-full bg-opacity-70" />
